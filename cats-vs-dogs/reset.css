@@ -31,7 +31,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+
+body { 
 	line-height: 1;
 }
 ol, ul {
@@ -68,6 +69,7 @@ table {
 	line-height: 0;
 	height: 0;
 }
+
  
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
