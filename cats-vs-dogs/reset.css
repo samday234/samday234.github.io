@@ -74,10 +74,11 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 body 
-{ background-color: lightgoldenrodyellow; font-family: Times; color: midnightblue; font-size: 20px; }
+{ background-color: lightgoldenrodyellow; font-family: Times; color: midnightblue; font-size: 20px; padding: 30px; }
 
-section#content { margin:0 auto; width:960px; padding:20px 0px; }
+section#content { margin:0 auto; width:960px; padding:30px; }
 
-h1 {  font-size: 32px; font-family: Helvetica; font-weight: bold; color: indigo; text-align:left; margin:0 auto; width:960px }
-nav { font-size: 18px; font-family: Helvetica; font-weight: bold; color: mediumvioletred; text-align:left; margin:0 auto; width:960px }
-
+h1 {  font-size: 32px; font-family: Helvetica; font-weight: bold; color: indigo; text-align:left; margin:0 auto; width:960px; padding: 0px; }
+nav { font-size: 18px; font-family: Helvetica; font-weight: bold; color: mediumvioletred; text-align:left; margin:0 auto; width:960px; padding: 20px; }
+nav li {
+	float:left; padding: 10px; }
