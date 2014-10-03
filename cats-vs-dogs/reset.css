@@ -1,6 +1,3 @@
-
-
-/* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -31,8 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
-body { 
+body {
 	line-height: 1;
 }
 ol, ul {
@@ -51,28 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+/* Add Styles Here */
+body { font-family: Times; font-color:blue font-size:14px; }
+section#content { margin:0 auto; width:960px; padding:20px 0px; }
 
-/* Center Content */
-
-.centered { 
-  margin:0 auto;
-  width:960px;
-}
-
-
-/* Clearfix */
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
-}
-
- 
-.clearfix { display: inline-block; }
-html[xmlns] .clearfix { display: block; }
-* html .clearfix { height: 1%; }
-
-
+h1 { font-size:48px; font-weight:bold; color:red; text-align:center; }
+h2 { font-size:36px; font-weight:bold; color:blue; text-align:center; }
+p { padding-bottom:10px; }
