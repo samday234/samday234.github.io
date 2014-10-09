@@ -50,6 +50,11 @@ table {
 	border-spacing: 0;
 }
 
+h1 {font-size: 18px; font-family: Helvetica; font-weight: bold; color: black;}
+#content2 { margin:0 auto; width:300px; padding:30px; float:right; position:relative; left:400px; right:0px; top:-410px; bottom:40px;}
+#content {margin:0 auto; width:300px; padding:30px; float:left; position:relative; left:-300px; right:0px; top:44px; bottom:40px;}
+#contentt {margin:0 auto; width:400px; padding:30px; float:left; position:relative; left:-300px; right:0px; top:440px; bottom:40px;}
+#contenttt {margin:0 auto; width:400px; padding:30px; float:left; position:relative; left:-300px; right:0px; top:-400px; bottom:40px;}
 /* -----------------END RESET---------------- */
 
 
