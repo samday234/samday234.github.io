@@ -48,11 +48,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;}
+#site-wrapper {background-color: brown;}
+#top-nav {clear:left; float:left;}
 body
 {color:saddlebrown;}
 h1 
 {font-size: 18px; font-family: Helvetica; font-weight: bold;}
- 
+nav li
+{float:left; padding: 10px; margin:0px 20px 20px 20px; list-style-type:disc; }
 h2
 {font-size: 18px; font-family: Helvetica; font-weight: bold; color:black;}
 
