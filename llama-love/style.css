@@ -51,17 +51,21 @@ table {
 }
 
 body 
-{ width:950px; background-color: white; font-family: Times; color: black; font-size: 14px; padding: 30px 150px 30px 150px }
+{ width:100%; background-color: white; font-family: Times; color: black; font-size: 14px; padding: 30px 150px 30px 150px }
 
 h1 {font-size: 18px; font-family: Helvetica; font-weight: bold; color: black;}
 
-section#content2 {clear:right; margin:40px; width:30%; padding:0px; float:left;}
+section#content2 {clear:; margin:40px; width:30%; padding:0px; float:left;}
 
-section#content {clear:right; margin:40px; width:30%; padding:0px; float:left;}
+section#content {clear:; margin:40px; width:30%; padding:0px; float:left;}
 
 img { margin: 10px 0px 10px 0px}
 
 article#text {float: right; margin:10px;}
+
+.textwrap { clear: left;
+			float :left;
+			margin: 10px;}
 /* -----------------END RESET---------------- */
 
 
