@@ -49,12 +49,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+body 
+{ width:950px; background-color: white; font-family: Times; color: black; font-size: 14px; padding: 30px 150px 30px 150px }
 h1 {font-size: 18px; font-family: Helvetica; font-weight: bold; color: black;}
-#content2 { margin:0 auto; width:300px; padding:30px; float:right; position:relative; left:400px; right:0px; top:-410px; bottom:40px;}
-#content {margin:0 auto; width:300px; padding:30px; float:left; position:relative; left:-300px; right:0px; top:44px; bottom:40px;}
-#contentt {margin:0 auto; width:400px; padding:30px; float:left; position:relative; left:-300px; right:0px; top:440px; bottom:40px;}
-#contenttt {margin:0 auto; width:400px; padding:30px; float:left; position:relative; left:-300px; right:0px; top:-400px; bottom:40px;}
+section#content2 {clear:right; margin:40px; width:30%; padding:0px; float:left;}
+section#content {clear:right; margin:40px; width:30%; padding:0px; float:left;}
+img { margin: 10px 0px 10px 0px}
+article#text {float: right; margin:10px;}
 /* -----------------END RESET---------------- */
 
 
