@@ -74,7 +74,7 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 body 
-{ width:950px; background-color: white; font-family: Times; color: black; font-size: 14px; padding: 30px 150px 30px 150px }
+{ width:100%; background-color: white; font-family: Times; color: black; font-size: 14px; padding: 30px 150px 30px 150px }
 
 section#content2 {clear:right; margin:40px; width:30%; padding:0px; float:left;}
 
@@ -96,9 +96,43 @@ nav li {
 	padding: 20px 120px 30px 130px;
 	}
 	
-#copy{clear:left; margin:40px; width:30%; float:left; }
+#copy{clear:left; margin:40px 45px; width:30%; float:left; }
 
 #wiki{clear:right;margin:40px; width:30%; float:left; }
 
 .martha {color:crimson
 	;}
+	
+#container { 
+	    background-color:white; 
+	    margin:20px; height:400px; width:700px; 
+	  }
+
+ .block1 {
+	    background-color:black;
+	    padding:1px;
+		position: relative;
+		bottom:10px;
+	  }
+ .block2 {
+	 	    background-color:black;
+	 	    padding:1px;
+			position: relative;
+			bottom:70px;}	
+.block3 {
+		   	background-color:black;
+		    padding:1px;
+		    position: relative;
+		   	top:500px;}		
+			
+a:link {
+	color: firebrick;
+			    text-decoration: none;
+				}
+a:hover {
+			    text-decoration: underline;
+			}
+a:visited {
+				color: slategray;
+			}
+			

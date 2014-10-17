@@ -51,7 +51,11 @@ table {
 }
 
 body 
-{ width:100%; background-color: white; font-family: Times; color: black; font-size: 14px; padding: 30px 150px 30px 150px }
+{ width:100%; 
+	background-color: white; 
+	font-family: Times;
+	 color: black; font-size: 14px; 
+	 padding: 30px 150px 30px 150px }
 
 h1 {font-size: 18px; font-family: Helvetica; font-weight: bold; color: black;}
 
