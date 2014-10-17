@@ -130,9 +130,9 @@ a:link {
 			    text-decoration: none;
 				}
 a:hover {
-			    text-decoration: underline;
+	text-decoration: underline;
 			}
 a:visited {
-				color: slategray;
+	color: slategray;
 			}
 			
