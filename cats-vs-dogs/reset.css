@@ -74,7 +74,7 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 body 
-{ width:100%; background-color: white; font-family: Times; color: black; font-size: 14px; padding: 30px 150px 30px 150px }
+{ width:100%; background-color: white; font-family: Times; color: black; font-size: 14px; padding: 30px 180px 30px 150px; display: inline-block;}
 
 section#content2 {clear:right; margin:40px; width:30%; padding:0px; float:left;}
 
