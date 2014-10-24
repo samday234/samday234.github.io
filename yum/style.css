@@ -60,7 +60,8 @@ footer
 {padding-top: 20px; }
 a:link
 {padding-top: 20px; }
-
+img 
+{padding: 20px 0px;}
 a:link 
 		{color: violet;
 			    text-decoration: none;
