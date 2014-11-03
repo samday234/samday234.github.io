@@ -55,7 +55,7 @@ table {
 
 .centered { 
   margin:0 auto;
-  width:100%;
+  width:960px;
 }
 
 
@@ -73,73 +73,70 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+
+@font-face {
+    font-family: 'league_gothicCnRg';
+    src: url('type/leaguegothic-condensedregular-webfont.eot');
+    src: url('type/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/leaguegothic-condensedregular-webfont.woff2') format('woff2'),
+         url('type/leaguegothic-condensedregular-webfont.woff') format('woff'),
+         url('type/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
+         url('type/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body 
-{ width:100%; height: 100%;  font-family: Times; color: black; font-size: 2em; padding: 3% 40% 3% 5%; display: inline-block;}
+{ width:80%; background-color: white; font-family: Times; color: black; font-size: 14px; margin:0 auto; display: inline-block;}
 
-header {display: inline-block; width:80%; padding:0% 15%; }
-section#content2 {clear:right; margin:2% 10%; width:30%; padding:0px; float:left;}
 
-section#content {clear:left; margin:2% 10%; width:30%; padding:0px; float:left;}
+section#content2 {clear:right; margin:10px 120px; width:30%; padding:0px; float:left;}
 
-img {width:80%; margin: 4% 20% 0% 0%; display: inline-block;}
+section#content {clear:both; margin:10px 40px; width:30%; padding:0px; float:left;}
 
-h1 { 
-	 font-size: 2em; font-family: Times; font-weight: bold; color: black; text-align:left; margin:0px 2% 2% 1%; width:80%; padding: 0px 10% 10% 0px; }
+img { margin: 10px 0px 0px 0px}
+
+h1 {  font-family: 'league_gothicCnRg';
+	 font-size: 20px;  font-weight: bold; color: black; text-align:left; margin:0px 40px 40px 5px; width:80%; padding: 0px 10px 10px 0px; }
 	 
-nav {
-	 font-size: 2em; font-family: Helvetica; font-weight: bold; color: black; text-align:left; margin:0px 0% 2% 2%; width:100%; padding: 0px 0% 1% 0px; }
+nav { height: 50px;
+	 border-top: 5px solid black;  border-bottom: 5px solid black; 
+	 font-size: 18px; font-family: Helvetica; 
+	 font-weight: bold; color: black; text-align:left; 
+	 margin:0px 30px 50px 80px; width:100%; 
+	 padding: 0px 20px 10px 0px; }
 	 
 nav li {
-	float:left; padding: 0%; margin:0px 0% 10% 10%; }
+	float:left; padding: 10px; margin:0px 20px 20px 20px; }
 	
 #mylogo {
 	margin:0px;
 	padding: 20px 120px 30px 130px;
 	}
 	
-#copy{clear:left; margin:1% 10%; width:30%; float:left; }
+#copy{clear:left; margin:40px; width:30%; float:left; }
 
-#wiki{clear:right;margin:1% 10% ; width:30%; float:left; }
+#wiki{clear:right;margin:40px 120px ; width:30%; float:left; }
 
 .martha {color:crimson
 	;}
 	
-#container { 
-	height:100%;
-	    margin:2%; width:100%; height: 100%;
-		background-color:brown;
-	  }
 
- .block1 {
-	 width:100%;
-	 height:100%;
-	    background-color:black;
-	    padding:1% 1% 0% 1%;
-		margin:1% 1% 1% 1%;
+
+
 	   
-	  }
- .block2 {
-	 width:100%;
-	 height:100%;
-	    background-color:black;
-	    padding:1% 1% 0% 1%;
-		margin:54% 1% 1% 1%;
-		
-		}	
-.block3 {
-	 width:100%;
-	 height:100%;
-    	background-color:black;
-    	padding:1% 1% 0% 1%;
-		margin:5% 1% 1% 1%;
-	
-		
+	   h1 {
+	       font-family: 'league_gothicCnRg';
+	     
+
 	   }
 
 	  
-   	   @media screen and (max-width:2500px) {
+   	   @media screen and (max-width:700px) {
    	    #content {color:red; }
    	      #content2 {color:red; }}
+
 a:link {
 	color: black;
 			    text-decoration: none;
