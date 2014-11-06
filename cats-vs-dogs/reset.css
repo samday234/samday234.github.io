@@ -74,6 +74,7 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+
 @font-face {
     font-family: 'league_gothicCnRg';
     src: url('type/leaguegothic-condensedregular-webfont.eot');
@@ -87,6 +88,8 @@ html[xmlns] .clearfix { display: block; }
 
 }
 
+}
+
 body 
 { width:80%; background-color: white; font-family: Times; color: black; font-size: 14px; margin:0 auto; display: inline-block;}
 
@@ -97,7 +100,7 @@ section#content {clear:both; margin:10px 40px; width:30%; padding:0px; float:lef
 
 img { margin: 10px 0px 0px 0px}
 
-h1 {  font-family: 'league_gothicCnRg';
+h2 { 
 	 font-size: 20px;  font-weight: bold; color: black; text-align:left; margin:0px 40px 40px 5px; width:80%; padding: 0px 10px 10px 0px; }
 	 
 nav { height: 50px;
@@ -110,7 +113,8 @@ nav { height: 50px;
 nav li {
 	float:left; padding: 10px; margin:0px 20px 20px 20px; }
 	
-#mylogo {
+h1 #mylogo {font-family:'league_gothicCnRg';
+font-size: 5em;
 	margin:0px;
 	padding: 20px 120px 30px 130px;
 	}
@@ -126,8 +130,8 @@ nav li {
 
 
 	   
-	   h1 {
-	       font-family: 'league_gothicCnRg';
+	   h2 {
+	       font-family: Helvetica;
 	     
 
 	   }
