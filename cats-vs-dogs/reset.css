@@ -76,13 +76,13 @@ html[xmlns] .clearfix { display: block; }
 
 
 @font-face {
-    font-family: 'league_gothicCnRg';
-    src: url('type/leaguegothic-condensedregular-webfont.eot');
-    src: url('type/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('type/leaguegothic-condensedregular-webfont.woff2') format('woff2'),
-         url('type/leaguegothic-condensedregular-webfont.woff') format('woff'),
-         url('type/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
-         url('type/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+    font-family: 'league_gothicregular';
+    src: url('type/leaguegothic-regular-webfont.eot');
+    src: url('type/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/leaguegothic-regular-cowebfont.woff2') format('woff2'),
+         url('type/leaguegothic-regular-webfont.woff') format('woff'),
+         url('type/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('type/leaguegothic-regular-webfont.svg#league_gothicCnRg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -91,37 +91,57 @@ html[xmlns] .clearfix { display: block; }
 }
 
 body 
-{ width:80%; background-color: white; font-family: Times; color: black; font-size: 14px; margin:0 auto; display: inline-block;}
+{ width:80%;  display: inline-block;}
 
 
-section#content2 {clear:right; margin:10px 120px; width:30%; padding:0px; float:left;}
+section#content2 {clear:right; margin:0; width:30%; padding:1%; float:left; font-size:  1em;}
 
-section#content {clear:both; margin:10px 40px; width:30%; padding:0px; float:left;}
+section#content {clear:both; margin:0; width:30%; padding:1%; float:left; font-size: 1em;}
+article {position:relative; left:20%;
+}
 
 img { margin: 10px 0px 0px 0px}
 
 h2 { 
 	 font-size: 20px;  font-weight: bold; color: black; text-align:left; margin:0px 40px 40px 5px; width:80%; padding: 0px 10px 10px 0px; }
 	 
-nav { height: 50px;
+nav { height: 2em;
 	 border-top: 5px solid black;  border-bottom: 5px solid black; 
-	 font-size: 18px; font-family: Helvetica; 
+	 font-size: 1em; font-family: Helvetica; 
 	 font-weight: bold; color: black; text-align:left; 
-	 margin:0px 30px 50px 80px; width:100%; 
-	 padding: 0px 20px 10px 0px; }
+	 margin:0px 0% 0% 0%; width:100%; 
+	 padding: 1% 0px 0px 0px;
+text-align:center; }
 	 
 nav li {
-	float:left; padding: 10px; margin:0px 20px 20px 20px; }
+ padding: 2%; margin:0px 0px 0px 0px;  
+ display:inline;}
+
+
 	
-h1 #mylogo {font-family:'league_gothicCnRg';
+h1 {font-family:'league_gothicregular';
 font-size: 5em;
 	margin:0px;
-	padding: 20px 120px 30px 130px;
-	}
-	
-#copy{clear:left; margin:40px; width:30%; float:left; }
+	text-align:center;
+	padding:2%;
+}
 
-#wiki{clear:right;margin:40px 120px ; width:30%; float:left; }
+		
+#vs {font-family: Georgia;
+	color:lightgray;
+	font-style:italic;
+	font-style:bold;
+	font-size: 70%;
+	padding:0px 0px 10px 0px;
+	border-top: 5px double lightgrey; 
+	border-bottom: 5px double lightgrey;
+			
+			
+		
+				}
+#copy{clear:left; margin:0; width:30%; float:left; padding:1%; }
+
+#wiki{clear:right;margin:0 ; width:30%; float:left; padding:1%; }
 
 .martha {color:crimson
 	;}
@@ -137,9 +157,9 @@ font-size: 5em;
 	   }
 
 	  
-   	   @media screen and (max-width:700px) {
-   	    #content {color:red; }
-   	      #content2 {color:red; }}
+   	   @media screen and (max-width:800px) {
+   	    #content {font-size:.8em !important;}
+   	      #content2 {font-size:.8em !important; float:none !important;  }}
 
 a:link {
 	color: black;
