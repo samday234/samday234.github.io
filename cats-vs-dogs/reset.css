@@ -107,7 +107,7 @@ h2 {
 	 
 nav { height: 2em;
 	 border-top: 5px solid black;  border-bottom: 5px solid black; 
-	 font-size: 1em; font-family: Helvetica; 
+	 font-size: 1em; font-family: 'league_gothicregular'; 
 	 font-weight: bold; color: black; text-align:left; 
 	 margin:0px 0% 0% 0%; width:100%; 
 	 padding: 1% 0px 0px 0px;
@@ -151,7 +151,7 @@ font-size: 5em;
 
 	   
 	   h2 {
-	       font-family: Helvetica;
+	       font-family: 'league_gothicregular';
 	     
 
 	   }
