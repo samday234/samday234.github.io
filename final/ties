@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+	  <h1>SAM DAY</h1>
+  	<nav><ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="aboutme.html">About me</a></li>
+  <li><a href="graphicdesign.html">Graphic Design</a></li>
+  <li><a href="more.html">More Artwork</a></li>
+   
+  </ul> 
+  </nav>
+  <h1>TIE OF TIES</h1>
+<p><img src='images2/tiee.jpg' alt="photo1"/></p>
+
+
+<p>Before I declared my major I took a sculpture class in my freshman year called form study. The goal for this piece was to create process artwork through repetition of simple actions. So I tied fabric and kept tyeing it until I eventually made a giant tie. This project helped to teach me patience in how lots of little actions could create something big. </p>
+  </body>
+</html>

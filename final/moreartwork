@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+	  <h1>SAM DAY</h1>
+  	<nav><ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="aboutme.html">About me</a></li>
+  <li><a href="graphicdesign.html">Graphic Design</a></li>
+  <li><a href="more.html">More Artwork</a></li>
+   
+  </ul> 
+  </nav>
+  <h1>MORE ARTWORK</h1>
+<div>
+<a href="pinecones.html"><p><img src='images2/radical.jpg' alt="photo1"/></p></a>
+<h2>Tie Of Ties</h2>
+<p>Form Study</p>
+</div>
+<div>
+<a href="birth.html"><p><img src='images2/birthfinal3.jpg' alt="photo2"/></p></a>
+<h2>Sun and Moon</h2>
+<p>Personal Project</p>
+</div>
+<div>
+<a href="stamps.html"><p><img src='images2/beatlestampsyeahcopy.jpg' alt="photo3"/></p></a>
+<h2>Mermaid of Death</h2>
+<p>Personal Project</p>
+</div>
+
+
+  </body>
+</html>
