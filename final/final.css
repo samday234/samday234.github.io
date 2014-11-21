@@ -1,0 +1,43 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* HTML5 display-role reset for older browsers */
+/* Center Content */
+/* Clearfix */
+
+
+
+
+@font-face {
+    font-family: 'cooper_hewittsemibold';
+    src: url('type/cooperhewitt-semibold-webfont.eot');
+    src: url('type/cooperhewitt-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/cooperhewitt-semibold-webfont.woff2') format('woff2'),
+         url('type/cooperhewitt-semibold-webfont.woff') format('woff'),
+         url('type/cooperhewitt-semibold-webfont.ttf') format('truetype'),
+         url('type/cooperhewitt-semibold-webfont.svg#cooper_hewittsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1
+{font-family: 'cooper_hewittsemibold'; color:#2f4f4f;}
+h2{font-family: 'cooper_hewittsemibold';}
+
+nav { height: 2em;
+	 font-size: 1em; font-family: 'cooper_hewittsemibold'; 
+	 font-weight: bold; color: maroon; text-align:left; 
+	 margin:0px 0% 0% 0%; width:100%; 
+	 padding: 1% 0px 0px 0px;
+text-align:center; }
+	 
+nav li {
+ padding: 2%; margin:0px 0px 0px 0px;  
+ display:inline;}
+ 
+body {font-family:georgia}
+section {width:70%;}
