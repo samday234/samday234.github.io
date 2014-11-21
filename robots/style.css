@@ -103,7 +103,7 @@ padding: 10px;}
 
  #site-header {margin:0px 50px;}
  
-#sidebar {position:absolute; left:600px; top: 250px; padding: 20px 0px 20px 20px;}
+#sidebar {clear:both; float:left; left:2px; top: 250px; padding: 20px 0px 20px 20px; margin: -568px 500px;}
 
 #footer-wrapper {
 	clear: both;
@@ -126,4 +126,5 @@ a:hover {
 a:visited {
 					color: slategray;
 				}
+
  
