@@ -38,8 +38,8 @@
 }
 
 h1
-{font-family: 'cooper_hewittsemibold'; color:#2f4f4f; padding:0 8% 0 8%; text-align:left; }
-h2{font-family: 'cooper_hewittsemibold';padding:0 8% 0 8%; text-align:left; }
+{font-family: 'cooper_hewittsemibold'; color:#2f4f4f; padding:0 8% 0 7%; text-align:left; }
+h2{font-family: 'cooper_hewittsemibold';padding:0 0% 0 0%; text-align:left; }
 #sam {font-family: 'cooper_hewittlight';font-size:12em;
 
 text-shadow: 8px 8px 0 rgba(51,102,102,0.5);}
@@ -71,11 +71,38 @@ section {width:70%;
 a:link {
     text-decoration: none;}
 a:hover {
-		    font-size:110%;
+		    text-decoration: underline;
 		}
 	
 a:visited {
-						color: #cccccc;
+						color: #666666;
 					}
-	.fancybox {padding:1% 8% 1% 8%;}				
-p {padding:0 8% 0 8%; }
+	#images {padding:1% 7% 1% 7%;}	
+	.fancybox {padding:0 0 0 0%;}
+			
+	
+
+
+div {
+	margin:25px; 
+	float:left;
+	clear:right;
+	padding:0px;
+}
+.stamps {
+/*	padding:  0 0 300px 0;*/
+}
+
+.container {
+    width: 300px; 
+	
+	
+  
+}
+
+/* resize images */
+.container img 
+{
+    width: 100%;
+    height: auto;
+}
