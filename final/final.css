@@ -71,7 +71,8 @@ section {width:70%;
 a:link {
     text-decoration: none;}
 a:hover {
-		    text-decoration: underline;
+		   
+			color:goldenrod !important;
 		}
 	
 a:visited {
@@ -106,3 +107,24 @@ div {
     width: 100%;
     height: auto;
 }
+@media screen and (max-width:1500px) {
+	h2 {font-size:1.6em !important;
+	}
+@media screen and (max-width:1300px) {
+h2 {font-size:1.3em !important;
+}
+@media screen and (max-width:900px) {
+h2 {font-size:1em !important;
+}
+@media screen and (max-width:1500px) {
+li {font-size: 1.3em !important;}
+@media screen and (max-width:1300px) {
+li  {font-size:1em !important;}
+@media screen and (max-width:900px) {
+li {font-size:.8em !important;}
+
+@media screen and (max-width:1300px) {
+#sam {font-size:7em !important;}
+   
+@media screen and (max-width:1300px) {
+h1 {font-size:1.7em !important;}
