@@ -37,16 +37,37 @@
 
 }
 
-h1
-{font-family: 'cooper_hewittsemibold'; color:#2f4f4f; padding:0 8% 0 7%; text-align:left; }
-h2{font-family: 'cooper_hewittsemibold';padding:0 0% 0 0%; text-align:left; }
-#sam {font-family: 'cooper_hewittlight';font-size:12em;
+h1{
+	font-family: 'cooper_hewittsemibold'; 
+	color:#2f4f4f;
+	padding:0 8% 0 7%;
+	text-align:left; 
+	-webkit-transition:  all 5s;
+	transition:  all 5s;
+}
 
-text-shadow: 8px 8px 0 rgba(51,102,102,0.5);}
+h2
+{font-family: 'cooper_hewittsemibold';
+padding:0 0% 0 0%; 
+text-align:left;
+-webkit-transition:  all 5s;
+transition:  all 5s;
+ }
 
-nav {  font-family: 'cooper_hewittsemibold'; font-size:2em;
-position: relative;
-   right: 8%;
+#sam {
+	font-family: 'cooper_hewittlight';
+	font-size:12em;
+	text-shadow: 8px 8px 0 rgba(51,102,102,0.5);
+
+	margin:0;
+	padding:0 7% 0 7%;
+}
+
+nav {  
+	 font-family: 'cooper_hewittsemibold';
+	 font-size:2em;
+     position: relative;
+     right: 8%;
 	 color: maroon; text-align:left; 
 	 margin:0px 0% 0% 0%; width:100%; 
 	 padding: 0 8% 0px 8%;
@@ -55,32 +76,48 @@ position: relative;
 	 
 nav li {
  padding: 0 0 0 5%;  
- display:inline;}
+ display:inline;
+}
  
-body {background-color:#afeeee;
+body {
+	background-color:#afeeee;
 	color:#2f4f4f;
-	font-family:georgia
-	
+	font-family:georgia;
+	background-image: url('images2/paper.jpg');
+	background-size: 2300px 
 	
 }
 
-section {width:70%;
+section {
+	width:70%;
 }
-img {padding:2% 0 0 1%;}
+
+img {
+	padding:2% 0px 0 2px;
+}
 
 
 a:link {
-    text-decoration: none;}
+	color:maroon;
+    text-decoration: none;
+}
+
 a:hover {
 		   
 			color:goldenrod !important;
 		}
 	
 a:visited {
-						color: #666666;
-					}
-	#images {padding:1% 7% 1% 7%;}	
-	.fancybox {padding:0 0 0 0%;}
+			color: #666666;
+}
+					
+	#images {
+		padding:1% 7% 1% 7%;
+}	
+	
+	.fancybox {
+		padding:0 0 0 0%;
+}
 			
 	
 
@@ -92,7 +129,9 @@ div {
 	padding:0px;
 }
 
-#contactt {padding:0 8% 0 7%; text-align:left;}
+#contactt {
+	padding:0 8% 0 7%; text-align:left;
+}
 
 
 .stamps {
@@ -113,33 +152,21 @@ div {
     height: auto;
 }
 @media screen and (max-width:1500px) {
-	h2 {font-size:1.6em !important;
-	}
-@media screen and (max-width:1300px) {
-h2 {font-size:1.3em !important;
-}
-@media screen and (max-width:900px) {
-h2 {font-size:1em !important;
-}
-@media screen and (max-width:1500px) {
-li {font-size: 1.3em !important;}
-@media screen and (max-width:1300px) {
-li  {font-size:1em !important;}
-@media screen and (max-width:900px) {
-li {font-size:.8em !important;}
+	h2 {font-size:1.6em ;}
+	img {max-width:100%  ;}
+	li {font-size: 1.3em ;}
 
+	
 @media screen and (max-width:1300px) {
-#sam {font-size:7em !important;}
-   
-@media screen and (max-width:1300px) {
-h1 {font-size:1.7em !important;}
+h2 {font-size:1.3em ;}
+li  {font-size:1em ;}
+#sam {font-size:6em ;}
+h1 {font-size:1.7em ;}
+img {max-width:80%  ;}
 
-@media screen and (max-width:1500px) {
-	img {max-width:100%  !important;
-	}
-@media screen and (max-width:1300px) {
-img {max-width:80%  !important;
-}
 @media screen and (max-width:900px) {
-img {max-width:50% !important;
-}
+h2 {font-size:1em ;}
+img {max-width:50% ;}
+li {font-size:.8em ;}
+
+
