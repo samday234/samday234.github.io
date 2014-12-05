@@ -66,6 +66,7 @@ body {background-color:#afeeee;
 
 section {width:70%;
 }
+img {padding:2% 0 0 1%;}
 
 
 a:link {
@@ -90,6 +91,10 @@ div {
 	clear:right;
 	padding:0px;
 }
+
+#contactt {padding:0 8% 0 7%; text-align:left;}
+
+
 .stamps {
 /*	padding:  0 0 300px 0;*/
 }
@@ -128,3 +133,13 @@ li {font-size:.8em !important;}
    
 @media screen and (max-width:1300px) {
 h1 {font-size:1.7em !important;}
+
+@media screen and (max-width:1500px) {
+	img {max-width:100%  !important;
+	}
+@media screen and (max-width:1300px) {
+img {max-width:80%  !important;
+}
+@media screen and (max-width:900px) {
+img {max-width:50% !important;
+}
