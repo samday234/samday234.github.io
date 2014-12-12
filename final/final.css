@@ -84,7 +84,7 @@ body {
 	color:darkslategray;
 	font-family:georgia;
 	font-size:.9em;
-	background-image: url('images2/paper.jpg');
+	background-image: url('images2/paper.png');
 	background-size: 2300px 
 	
 }
@@ -173,7 +173,8 @@ img {max-width:100%  ;}
 	nav {font-size: 4em ;}
 	h1 {font-size:5em ;}
 	h5 {font-size:5em ;}
-div{max-width:35%;max-height:35%;}
+
+.images1{max-width:100%;}
 }
 
 @media screen and (max-width:1300px) {
@@ -183,8 +184,8 @@ nav  {font-size:2em ;}
 h1 {font-size:3em ;}
 h5 {font-size:3em ;}
 img {max-width:100%  ;}
-	div{max-width:35%;max-height:35%;}
-
+.images1{max-width:70%;}
+}
 @media screen and (max-width:900px) {
 h2 {font-size:1em ;}
 img {max-width:90% ;}
@@ -193,10 +194,10 @@ nav {font-size:1em ;}
 h1 {font-size:1.3em ;}
 h5 {font-size:1.3em ;}
 p{font-size:.5em;}
-	div{max-width:30%;max-height:30%;}
+	.images1{max-width:60%;}
 	.subtitles
 		{font-size:6.6pt}
-
+	}
 @media screen and (max-width:650px) {
 		h2 {font-size:.8em ;}
 		img {max-width:90% ;}
@@ -205,7 +206,9 @@ p{font-size:.5em;}
 		h1 {font-size:1em ;}
 		h5 {font-size:1em ;}
 		p{font-size:.5em;}
-			div{max-width:20%;max-height:20%;}
+		.images1{max-width:50%;}
 			.subtitles
 				{font-size:6pt}
 				#contactt {font-size:.5em;}
+			}
+				
