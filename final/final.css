@@ -41,14 +41,16 @@ h1{
 	font-family: 'cooper_hewittsemibold'; 
 	color:#2f4f4f;
 	padding:0 10% 0 9%;
-	text-align:left; 
+	text-align:left;
+	font-size:6em 
 
 }
 
 h2
 {font-family: 'cooper_hewittsemibold';
-padding:0 0% 0 0%; 
+padding:0 2% 0 2%; 
 text-align:left;
+clear:both;
 
  }
 
@@ -58,7 +60,7 @@ text-align:left;
 	text-shadow: 8px 8px 0 rgba(51,102,102,0.5);
 
 	margin:0;
-	padding:0 7% 0 7%;
+	padding:0 9% 0 9%;
 }
 
 nav {  
@@ -68,7 +70,7 @@ nav {
      right: 8%;
 	 color: maroon; text-align:left; 
 	 margin:0px 0% 0% 0%; width:100%; 
-	 padding: 0 8% 0px 8%;
+	 padding: 0 10% 0px 10%;
 	
  }
 	 
@@ -94,7 +96,13 @@ section {
 img {
 	padding:2% 0px 0 2px;
 }
-
+h5{
+	font-family: 'cooper_hewittsemibold'; 
+	color:#2f4f4f;
+	padding:0 0% 0 4%;
+	text-align:left;
+	font-size:6em 
+ }
 
 a:link {
 	color:maroon;
@@ -117,7 +125,12 @@ a:visited {
 	.fancybox {
 		padding:0 0 0 0%;
 }
-			
+	p
+	 {font-size:1em;
+		  width:70%; 
+	  clear:both;
+	  float:left;
+	  padding:3%}		
 	
 
 
@@ -128,8 +141,9 @@ div {
 	padding:0px;
 }
 
-#contactt {
-	padding:0 8% 0 7%; text-align:left;
+#contactt { clear:both;
+	  float:left;
+	padding:0 8% 0 7%; 
 }
 
 
@@ -154,21 +168,27 @@ div {
 	h2 {font-size:1.6em ;}
 	img {max-width:100%  ;}
 	#sam {font-size:15em ;}
-	li {font-size: 1.3em ;}
+	nav {font-size: 5em ;}
+	h1 {font-size:5em ;}
+	h5 {font-size:5em ;}
 	div{max-width:40%;}
 @media screen and (max-width:1300px) {
 h2 {font-size:1.3em ;}
-li  {font-size:1em ;}
+nav  {font-size:3em ;}
 #sam {font-size:11em ;}
-h1 {font-size:1.7em ;}
-img {max-width:85%  ;}
+h1 {font-size:3em ;}
+h5 {font-size:3em ;}
+img {max-width:95%  ;}
 	div{max-width:35%;}
+	
 @media screen and (max-width:900px) {
 h2 {font-size:1em ;}
-img {max-width:80% ;}
+img {max-width:90% ;}
 #sam {font-size:5em ;}
-li {font-size:.8em ;}
+nav {font-size:.8em ;}
 h1 {font-size:1.3em ;}
+h5 {font-size:1.3em ;}
+p{font-size:.5em;}
 	div{max-width:30%;}
 	.subtitles
 		{font-size:6.6pt}
