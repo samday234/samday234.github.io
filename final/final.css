@@ -39,7 +39,7 @@
 
 h1{
 	font-family: 'cooper_hewittsemibold'; 
-	color:#2f4f4f;
+	color:darkslategray;
 	padding:0 10% 0 9%;
 	text-align:left;
 	font-size:6em 
@@ -81,7 +81,7 @@ nav li {
  
 body {
 	background-color:#afeeee;
-	color:#2f4f4f;
+	color:darkslategray;
 	font-family:georgia;
 	font-size:.9em;
 	background-image: url('images2/paper.jpg');
@@ -111,11 +111,12 @@ a:link {
 
 a:hover {
 		   
-			color:goldenrod !important;
+			color:black!important;
+			text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #333333, 0 0 5px #333333 , 0 0 5px #333333, 0 0 5px #333333, 0 0 5px #333333 ;
 		}
 	
 a:visited {
-			color: #666666;
+			color: #990000;
 }
 					
 	#images {
@@ -192,4 +193,15 @@ p{font-size:.5em;}
 	div{max-width:30%;}
 	.subtitles
 		{font-size:6.6pt}
-
+	
+@media screen and (max-width:650px) {
+		h2 {font-size:.8em ;}
+		img {max-width:90% ;}
+		#sam {font-size:4em ;}
+		nav {font-size:.5em ;}
+		h1 {font-size:1em ;}
+		h5 {font-size:1em ;}
+		p{font-size:.5em;}
+			div{max-width:20%;}
+			.subtitles
+				{font-size:6pt}
