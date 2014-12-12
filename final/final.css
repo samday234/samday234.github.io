@@ -65,7 +65,7 @@ clear:both;
 
 nav {  
 	 font-family: 'cooper_hewittsemibold';
-	 font-size:2em;
+	 font-size:2.5em;
      position: relative;
      right: 8%;
 	 color: maroon; text-align:left; 
@@ -170,7 +170,7 @@ div {
 	h2 {font-size:1.6em ;}
 img {max-width:100%  ;}
 	#sam {font-size:15em ;}
-	nav {font-size: 5em ;}
+	nav {font-size: 4em ;}
 	h1 {font-size:5em ;}
 	h5 {font-size:5em ;}
 div{max-width:35%;max-height:35%;}
@@ -178,7 +178,7 @@ div{max-width:35%;max-height:35%;}
 
 @media screen and (max-width:1300px) {
 h2 {font-size:1.3em ;}
-nav  {font-size:3em ;}
+nav  {font-size:2em ;}
 #sam {font-size:11em ;}
 h1 {font-size:3em ;}
 h5 {font-size:3em ;}
@@ -189,7 +189,7 @@ img {max-width:100%  ;}
 h2 {font-size:1em ;}
 img {max-width:90% ;}
 #sam {font-size:5em ;}
-nav {font-size:.8em ;}
+nav {font-size:1em ;}
 h1 {font-size:1.3em ;}
 h5 {font-size:1.3em ;}
 p{font-size:.5em;}
@@ -201,7 +201,7 @@ p{font-size:.5em;}
 		h2 {font-size:.8em ;}
 		img {max-width:90% ;}
 		#sam {font-size:4em ;}
-		nav {font-size:.5em ;}
+		nav {font-size:.9em ;}
 		h1 {font-size:1em ;}
 		h5 {font-size:1em ;}
 		p{font-size:.5em;}
