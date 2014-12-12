@@ -173,7 +173,7 @@ img {max-width:100%  ;}
 	nav {font-size: 5em ;}
 	h1 {font-size:5em ;}
 	h5 {font-size:5em ;}
-div{max-width:250px;}
+div{max-width:35%;max-height:35%;}
 }
 
 @media screen and (max-width:1300px) {
