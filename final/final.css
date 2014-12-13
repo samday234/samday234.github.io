@@ -174,7 +174,7 @@ img {max-width:100%  ;}
 	h1 {font-size:5em ;}
 	h5 {font-size:5em ;}
 
-.images1{max-width:100%;}
+.images1{max-width:45%;}
 }
 
 @media screen and (max-width:1300px) {
@@ -184,7 +184,7 @@ nav  {font-size:2em ;}
 h1 {font-size:3em ;}
 h5 {font-size:3em ;}
 img {max-width:100%  ;}
-.images1{max-width:70%;}
+.images1{max-width:40%;}
 }
 @media screen and (max-width:900px) {
 h2 {font-size:1em ;}
@@ -194,7 +194,7 @@ nav {font-size:1em ;}
 h1 {font-size:1.3em ;}
 h5 {font-size:1.3em ;}
 p{font-size:.5em;}
-	.images1{max-width:60%;}
+	.images1{max-width:35%;}
 	.subtitles
 		{font-size:6.6pt}
 	}
@@ -206,7 +206,7 @@ p{font-size:.5em;}
 		h1 {font-size:1em ;}
 		h5 {font-size:1em ;}
 		p{font-size:.5em;}
-		.images1{max-width:50%;}
+		.images1{max-width:30%;}
 			.subtitles
 				{font-size:6pt}
 				#contactt {font-size:.5em;}
